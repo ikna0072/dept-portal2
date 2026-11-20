@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>현장 안전 안내 포털 QR 코드</title>
+<style>
+:root{--cream:#f8f8f2; --ink:#1a1a1a; --ink-60:rgba(26,26,26,.6); --amber:#ffd8a8; --mint:#a4f4cf; --powder:#bedbff}
+*{box-sizing:border-box}
+html,body{height:100%; margin:0}
+body{background:var(--cream); color:var(--ink); font-family:"Pretendard","Noto Sans KR","Malgun Gothic","Apple SD Gothic Neo",system-ui,sans-serif; word-break:keep-all; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:3vmin; padding:4vmin; position:relative; overflow:auto}
+.bar{position:fixed; top:0; left:0; right:0; height:1.4vmin; background:linear-gradient(90deg,var(--amber) 0 33.3%,var(--mint) 33.3% 66.6%,var(--powder) 66.6%)}
+h1{margin:0; font-size:clamp(1.5rem,5vmin,3.5rem); font-weight:700; letter-spacing:-.03em; text-align:center}
+.sub{margin:0; font-size:clamp(1rem,2.6vmin,1.75rem); color:var(--ink-60); text-align:center}
+.qr{background:#fff; padding:3vmin; border-radius:2.5vmin; width:min(62vmin,92vw); aspect-ratio:1/1; display:flex; flex:none}
+.qr svg{width:100%; height:100%; display:block}
+.url{font-size:clamp(1rem,2.8vmin,2rem); font-weight:600; letter-spacing:-.01em; text-align:center; overflow-wrap:anywhere}
+.tools{display:flex; gap:12px; flex-wrap:wrap; justify-content:center}
+button{font:inherit; font-size:1rem; font-weight:600; min-height:48px; padding:10px 20px; border:1px solid var(--ink); border-radius:8px; background:transparent; color:var(--ink); cursor:pointer}
+button:hover{background:#fff}
+:focus-visible{outline:2px solid var(--ink); outline-offset:3px}
+body.full .tools{display:none}
+</style>
+</head>
+<body>
+<div class="bar" aria-hidden="true"></div>
+<h1>현장 안전 안내 포털</h1>
+<p class="sub">휴대폰 카메라로 QR 코드를 비추면 바로 접속합니다</p>
+<div class="qr"><svg role="img" aria-label="현장 안전 안내 포털 접속 QR 코드" shape-rendering="crispEdges" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" class="segno"><path class="qrline" stroke="#1a1a1a" d="M0 0.5h7m2 0h1m1 0h1m2 0h2m2 0h2m2 0h7m-29 1h1m5 0h1m1 0h1m1 0h4m1 0h1m3 0h2m1 0h1m5 0h1m-29 1h1m1 0h3m1 0h1m2 0h4m5 0h1m3 0h1m1 0h3m1 0h1m-29 1h1m1 0h3m1 0h1m3 0h1m1 0h1m1 0h3m2 0h2m1 0h1m1 0h3m1 0h1m-29 1h1m1 0h3m1 0h1m1 0h1m1 0h2m1 0h3m1 0h3m2 0h1m1 0h3m1 0h1m-29 1h1m5 0h1m2 0h2m1 0h4m2 0h2m2 0h1m5 0h1m-29 1h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7m-20 1h1m1 0h3m3 0h1m1 0h1m-20 1h1m1 0h1m1 0h1m1 0h1m2 0h6m2 0h1m1 0h2m3 0h1m2 0h1m-21 1h3m1 0h1m1 0h2m1 0h1m3 0h1m1 0h2m1 0h1m2 0h1m-27 1h1m1 0h1m1 0h2m1 0h3m1 0h2m3 0h1m1 0h1m1 0h3m1 0h3m-29 1h1m2 0h1m1 0h1m3 0h1m2 0h2m2 0h6m1 0h1m3 0h1m-26 1h1m1 0h3m1 0h2m3 0h5m4 0h1m2 0h1m1 0h2m-22 1h2m3 0h1m3 0h1m3 0h1m1 0h1m2 0h1m2 0h1m-27 1h5m1 0h2m1 0h3m2 0h2m4 0h1m2 0h1m1 0h2m-29 1h4m1 0h1m5 0h5m1 0h3m1 0h1m2 0h2m1 0h1m-28 1h1m2 0h1m2 0h1m1 0h2m1 0h1m2 0h1m2 0h4m1 0h1m2 0h1m1 0h2m-27 1h1m1 0h1m2 0h1m2 0h4m2 0h1m3 0h1m1 0h1m2 0h2m1 0h1m-29 1h1m4 0h3m2 0h1m1 0h1m1 0h1m2 0h1m3 0h3m3 0h2m-28 1h1m5 0h2m2 0h3m1 0h4m1 0h1m1 0h4m1 0h1m-28 1h1m2 0h2m1 0h2m1 0h1m4 0h4m2 0h5m-17 1h3m1 0h1m4 0h1m1 0h2m3 0h1m1 0h3m-29 1h7m2 0h3m1 0h1m2 0h1m2 0h2m1 0h1m1 0h2m1 0h2m-29 1h1m5 0h1m2 0h1m2 0h1m2 0h3m2 0h1m3 0h2m1 0h1m-28 1h1m1 0h3m1 0h1m1 0h1m2 0h2m4 0h1m2 0h5m-25 1h1m1 0h3m1 0h1m3 0h2m4 0h2m1 0h3m1 0h2m1 0h3m-29 1h1m1 0h3m1 0h1m1 0h2m1 0h2m3 0h1m2 0h1m1 0h1m1 0h3m2 0h1m-29 1h1m5 0h1m3 0h1m1 0h1m2 0h1m1 0h5m5 0h1m-28 1h7m1 0h2m1 0h2m4 0h1m2 0h1m6 0h2"/></svg></div>
+<div class="url" id="url">https://ikna0072.github.io/dept-portal2/</div>
+<div class="tools">
+  <button type="button" id="full">전체 화면</button>
+  <button type="button" id="copy">주소 복사</button>
+</div>
+<script>
+(function () {
+  var url = document.getElementById('url').textContent.trim();
+  var copy = document.getElementById('copy'), full = document.getElementById('full');
+  function msg(t) { copy.textContent = t; setTimeout(function () { copy.textContent = '주소 복사'; }, 2000); }
+  copy.addEventListener('click', function () {
+    try { navigator.clipboard.writeText(url).then(function () { msg('복사했습니다'); }, function () { msg('복사 실패 — 주소를 직접 선택하세요'); }); }
+    catch (e) { msg('복사 실패 — 주소를 직접 선택하세요'); }
+  });
+  full.addEventListener('click', function () {
+    try { document.documentElement.requestFullscreen().catch(function () {}); } catch (e) {}
+  });
+  document.addEventListener('fullscreenchange', function () { document.body.classList.toggle('full', !!document.fullscreenElement); });
+})();
+</script>
+</body>
+</html>
